@@ -9,6 +9,7 @@ $sql.= " WHERE id=$user_id";
 $query = mysql_query($sql) or die(mysql_error());
 $row = mysql_fetch_array($query); 
 
+// changes
 // формируем элементы
 $info[] = $info1 = array (
    'field' => 'Логин'
