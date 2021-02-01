@@ -1,0 +1,658 @@
+
+
+
+/* стили файла head*/
+
+#cap h2, #footer h2{
+	margin: 10px 0 10px 0;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+.col-md-3.arend{
+	padding: 0 15px;
+}
+
+#cap {
+	/*height: 8vh;*/
+}
+
+#cap .row{
+	/*height:8vh;*/
+}
+#footer {
+	height: 14vh;
+}
+#footer .row{
+	height: 14vh;
+}
+ 
+
+#cap, #footer {
+	width: 100%;
+	background-color: #414243;
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+}
+
+#cap .container, #footer .container {
+	border: 0;
+	border-radius: 0;
+ 	background-color: #414243;
+}
+
+.head{
+	
+	height: 70vh;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 0;
+	border-radius: 5px;
+	
+}
+
+ #head{
+	 margin-top: 3px!important;
+	 height: 76vh;
+	 background-color: #ddd;	
+	 border: 0px;
+     border-radius: 0px;
+ }
+
+  #head .container{
+ 
+	 border-radius: 0;
+ }
+ 
+.head .col-lg-4:first-child{
+	text-align: right;
+}
+
+ .head .col-lg-4:last-child{
+	text-align: left;
+}
+
+ .head .col-lg-4 > .btn{
+	height: 80px;
+	width: 160px;
+	font-size: 16px;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	border: 2px solid darkblue;
+    border-radius: 9px; 
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+ 
+ .head .col-lg-4 > .btn:hover{
+ transform: scale(1.1);
+}
+ 
+div.col-12 h2{
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	color: #667;
+	font-weight: bold;
+}
+
+
+
+div.col-12 h6 em{
+ 	color: white;
+	font-weight: bold;
+}
+
+div.container.mt-2.pt-2 hr {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+
+
+/* стии файла index*/
+
+
+body{
+    font-size: 14px;
+	font-weight: bolder;
+	background: #eaf0f3;
+ 
+	margin: 0 0;
+	padding: 0 0;
+	
+	background: #fafafa url(images/site_bg_2017.jpg) no-repeat top center;
+	
+}
+
+
+
+.container{
+    /*border: 3px solid #2c1bff; */
+	/*border: 1px solid grey;*/
+    background-color: #ffffff;
+	border-radius: 8px;
+    padding: 0 0 ;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.block{
+    /* border: 3px solid #c3e7e8;  */
+	background-color: #fafffb;
+	/*border: 1px solid grey;*/
+    border-radius: 8px;
+    padding: 5px;
+	padding-bottom: 20px;
+	margin: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	/*background: linear-gradient(to top, whitesmoke, LightGrey);*/
+ }
+
+ h3,h4, h5{
+    text-align: center;
+    color: darkred;
+    font-weight: bolder;
+	
+}
+h3{
+    color: whitesmoke;
+	margin: 5px 0;
+}
+h3{
+	margin: 15px 0;
+}
+h4{
+    color: whitesmoke;
+	margin: 5px 0;
+}
+h4{
+	margin: 7px 0;
+}
+h5{
+	margin: 5px 0 5px 0;
+}
+
+
+.pay .box{
+    margin-right: 20%;
+}
+
+
+/*играем с дивами box*/
+.box, .box1{
+    display: flex;
+    justify-content: flex-end;
+}
+ .box2{
+	display: flex;
+	justify-content: flex-end;
+}
+
+div.box2  input {
+	width: 78%;
+}
+
+div.box1.col-md-6{
+	padding-right: 15px;
+	padding-left: 0px;
+}
+div.box1.col-md-6 label{
+	padding-right: 4px;
+}
+
+div.box1.col{
+	padding-right: 5px;
+
+}
+
+div.box1.col label{
+	padding-right: 3px;
+	margin-left: -18px;
+}
+
+select.search_bs{
+	margin-right: 5px;
+
+}
+
+.box input, .box select{
+    margin-left: 10px;
+    height: 28px;
+	width: 54%;
+}
+ .box select[name="division"]{
+	 width: 54%;
+}
+.box select[name="type_currency"]{
+	
+}
+
+  input[name="woker"]{
+	width: 54%;
+}
+
+.box label{
+ text-align: left;
+ margin-right: 2px;
+}
+
+.box textarea{
+    width: 80%;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	resize: none;
+}
+
+#keyword{
+	width: 55%;
+	margin-right: -5px;
+}
+
+select.more_equal, .box1.col input.more_equal{
+	width: 26%;
+}
+
+.box1.col input.more_equal{
+	margin-left: 16px;
+	margin-right: 0px;
+}
+
+
+/*select.reg option:first-child {*/
+/*	color: #999;*/
+/*}*/
+
+input, textarea, select {
+    order: 2;
+    position: relative;
+    width: 52%;
+	/*border-radius: 2px;*/
+	margin-bottom: 5px;
+	padding-left: 5px;
+	/*box-shadow: 0 0 1px rgba(0,0,0,0.5);*/
+}
+input[placeholder]{
+    padding-left: 5px;
+	
+}
+input[disabled]{
+    padding-left: 5px;
+	color: #000;
+}
+
+label{
+    order: 1;
+}
+
+.numBS > label{
+    margin-left: -12px;
+	font-size: 14px;
+}
+
+input[type=submit]{
+	max-width: 110px;
+	/*height: 30px;*/
+	/*margin: 5px;*/
+	/*padding: 5px;*/
+	margin: 0px 1px 2px 1px;
+	font-size: 11px;
+	border-radius: 3px;
+}
+.justify-content-end{
+	text-align: left;
+}
+
+.box .btn{
+	margin-top: 5px;
+	font-size: 11px;
+}
+ .btn{
+	font-size: 11px;
+	border: 1px solid red;
+	margin: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.col-md-4, .col-md-5, .col-md-7 {
+	padding: 0px 0.2%;
+	
+		
+} 
+.col-md-3 {
+	padding: 0%;
+}
+
+.col-md-5 .block{
+	/*height: 40vh; */
+}
+
+@media screen and (max-width:1200px) {
+	
+	.head .col-lg-4:first-child {
+    text-align: center;
+	margin-bottom: 10px;
+	}
+	.head .col-lg-4:last-child {
+    text-align: center;
+	margin-top: 10px;
+	}
+	
+	.box label{
+ text-align: left;
+}
+.numBS > label{
+    margin-left: 0px;
+ 
+}
+
+.box > input[type=date]{
+    width: 188px;
+	margin-left: 15px;
+}
+
+    .box label {
+        padding-left: 5%;
+		margin-bottom: 0;
+    }
+    .box input {
+        width: 100%;
+	}
+
+    .box textarea{
+        width: 300%;
+        margin-left: -85%;
+    }
+
+    .area label{
+        margin-left: -65%;
+    }
+
+    .area{
+        justify-content: center;
+		position: relative;
+    }
+}
+
+@media screen and (max-width:996px) {
+
+     .box textarea{
+        width: 245%;
+        margin-left: -72%;
+    }
+}
+
+.show{
+	height: 270px;
+	transition: 0.5s;
+}
+.show_land{
+	height: 220px;
+	transition: 0.5s;
+}
+.show_report{
+	height: 110%;
+	transition: 0.5s;
+}
+
+#division, #adres_baza{
+margin-left: 0;
+}
+
+#buttonshow{
+	height: 32px;
+	border: 1px solid #c11717;
+	border-radius: 5px;
+	color: whitesmoke;
+	transition: 0.5s;
+	cursor: pointer;
+	background-color: orangered;
+}
+
+div #areset{
+	height: 40px;
+	margin-left: 10%;
+}
+
+#reset{
+	background-color: orangered;
+	height: 32px;
+	padding: 5px;
+	border: 1px solid #c11717;
+	border-radius: 5px;
+	color: whitesmoke;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.buttonshow {
+	transform: rotate(180deg);
+	transition: 0.5s;
+}
+
+.hideandshow{
+	height: 0;
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.counter{
+	width: 100%;
+}
+
+.counter td, tr{
+	border: 1px solid gray;
+	font-size: 14px;
+	padding: 2px 6px;
+}
+
+/*Относиться к форме Геопоиска*/
+
+table {
+	border-radius: 7px;
+	   border-collapse: collapse;
+	   font-size: 11px;
+	   text-align: center;
+		margin: 3px;
+	width: 100%;
+   }
+.tablerow{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+table tbody tr:nth-child(even) {
+	background-color: #fcfcfc;
+}
+
+td, tr {
+	padding: 2px;
+	margin: 2px;
+	box-shadow: 0 0 2px rgba(0,0,0,0.2);
+	border-collapse: collapse;
+	text-align: center;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+th {
+	box-shadow: 0 0 2px rgba(0,0,0,0.5);
+	border-collapse: collapse;
+	padding: 2px 2px;
+	text-align: center;
+	background: red;
+	color: white;
+	font-size: 11px;
+}
+
+th.numberBS{
+	width: calc(5%);
+}
+th.typePlace{
+	width: calc(5%);
+}
+th.adress{
+	width: calc(13%);
+}
+th.arendodatel{
+	width: calc(9%);
+}
+th.numDogovor{
+	width: calc(5%);
+}
+th.typeDogovor{
+	width: calc(5%);
+}
+th.dataDogovor{
+	width: calc(7%);
+}
+th.dateStart{
+	width: calc(7%);
+}
+th.dateEnd{
+	width: calc(7%);
+}
+th.typeArendy{
+	width: calc(5%);
+}
+th.summa{
+	width: calc(5%);
+}
+th.nds2{
+	width: calc(5%);
+}
+th.kontragent{
+	width: calc(14%);
+}
+th.worker{
+	width: calc(8%);
+}
+/*Для базы Документов на землю*/
+th.bts_land{
+	width: calc(1%);
+}
+th.region_land{
+	width: calc(1%);
+}
+th.type_doc_land{
+	width: calc(1%);
+}
+th.notes_land{
+	width: calc(20%);
+}
+
+
+
+/* th.notes{*/
+/*	width: calc(8%);*/
+/*}*/
+
+
+div.col.paginat{
+	text-align: center;
+}
+
+
+
+label {
+	font-weight: bold;
+}
+
+#Filtrs {
+	margin: 3px;
+}
+#form {
+	margin: 3px;
+}
+
+.datebox:last-child {
+	/*margin-right: 10px;*/
+	}
+
+div.box1.col input{
+	width: 52%;
+	
+}
+ 
+
+.datebox p{
+	font-size: 16px;
+	text-align: center;
+	margin-left: 2%;
+	margin-bottom: 4%;
+}
+   
+.selectoblast, .selectDistributs, .selectCity {
+        float: right;
+        /*width: 100%;*/
+		margin-left: 2%;
+    }
+
+
+.pressMe{
+        /*float: right;*/
+		/*margin: 0 2%;*/
+    }
+div form{
+	margin-bottom: 0;
+}
+#content{
+        overflow-Y: scroll;
+    }
+   
+.outFilter{
+      padding: 10px;
+      margin-left: 490px;
+      margin-top: -85px;
+   }
+ 
+
+
+#login, .log_info
+{
+	font-size:12px;
+	color:#FFF;
+}
+
+#log_info img{
+	max-height: 8vh;
+	padding: 1px;
+}
+
+div a button{
+	margin: 0px 1px 2px 1px;
+	font-size: 11px;
+	border-radius: 3px;
+}
+
+th.num_naideno{
+	width: 10px;
+}
+th.bts_naideno{
+	width: 15px;
+}
+th.adress_naideno{
+	width: 100px;
+}
+th.redactor{
+	width: 10px;
+}
+th.reasons{
+	width: 100px;
+}
+th.meri{
+	width: 100px;
+}
+th.sroki{
+	width: 60px;
+}
+
+
+
+
+
+

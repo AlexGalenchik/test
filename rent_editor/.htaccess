@@ -1,0 +1,4 @@
+<IfModule dir_module>
+    DirectoryIndex geo_finder.php
+</IfModule>
+AddDefaultCharset cp1251

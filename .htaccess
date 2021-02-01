@@ -1,0 +1,4 @@
+<IfModule dir_module>
+    DirectoryIndex main.php
+</IfModule>
+AddDefaultCharset cp1251

@@ -1,0 +1,75 @@
+#tableNB, #tableRNC, #tableBBU, #tableBSC, #tableLTE, #tableLAC {
+    float: left; /* Обтекание по правому краю */
+    border: 1px solid red; /* Параметры рамки */
+    padding: 2px; /* Поля вокруг текста */
+    margin: 3px; /* Отступ */
+    text-align: center;
+	font-size:  12px;
+	font-family: 'Times New Roman';
+    width: 185px;
+    height: 200px;
+	border-collapse: collapse; /* Убираем двойные границы между ячейками */
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.7);
+	
+}
+
+#tableLAC {
+    float: left; /* Обтекание по правому краю */
+    border: 1px solid red; /* Параметры рамки */
+    padding: 2px; /* Поля вокруг текста */
+    margin: 3px; /* Отступ */
+    text-align: center;
+	font-size:  12px;
+	font-family: 'Times New Roman';
+    width: 185px;
+    height: 540px;
+	border-collapse: collapse; /* Убираем двойные границы между ячейками */
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.7);
+	
+}
+
+ table, td {
+	border: 1px solid grey;
+	border-collapse: collapse; /* Убираем двойные границы между ячейками */
+	padding: 2px;
+	width: 184px;
+	vertical-align: middle;
+}
+
+#block-first, #block-RNC, #block-RNC900, #block_BSC, #block_BBU, #block_LAC2G, #block_LAC3G, #block_LAC4G, #block_PlaceBS, #block_PlaceBSGSM, #block_PlaceBSDCS, #block_PlaceBSU2100, #block_PlaceBSU900, #block_PlaceBSL1800,#block_PlaceBSL800, #block_PlaceBSL2600, #block_PlaceBSIoT, #block_PlaceBS_5G, #block_Place_Repiter {
+	display: block;
+    float: left; 
+}
+
+.nameLi, label{
+ 	color: darkblue;
+	font: bold 14px Arial;
+	cursor: pointer;
+ }
+
+
+#block-first.disabled, #block-RNC.disabled, #block-RNC900.disabled, #block_BSC.disabled, #block_BBU.disabled, #block_LAC2G.disabled, #block_LAC3G.disabled, #block_LAC4G.disabled, #block_PlaceBS.disabled, #block_PlaceBSGSM.disabled, #block_PlaceBSDCS.disabled,  #block_PlaceBSU2100.disabled, #block_PlaceBSU900.disabled,
+#block_PlaceBSL1800.disabled,#block_PlaceBSL800.disabled, #block_PlaceBSL2600.disabled, #block_PlaceBSIoT.disabled, #block_PlaceBS_5G.disabled, #block_Place_Repiter.disabled {
+	display: none;
+}
+
+.nameUL.disabled  {
+	 display: none;
+}
+
+.nameLi::before {
+    content: "-";
+}
+
+.nameLi.show::before {
+    content: "+";
+	float: left;
+}
+
+ 
+ul {
+list-style-type: none;
+}
+ 
